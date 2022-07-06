@@ -2,7 +2,10 @@ import React from 'react'
 import { BiChevronRight } from 'react-icons/bi';
 import heroImage from '../assets/Rohit_Gupta.jpeg'
 
+
 const Home = () => {
+
+    
   return (
     <div name="home" className="h-screen w-full bg-gradient-to-b from-black via-black to-gray-800">
 
