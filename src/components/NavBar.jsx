@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { FaBars, FaTimes } from "react-icons/fa";
+import { FiPhone } from 'react-icons/fi';
 import { Link } from 'react-scroll'
 
 const NavBar = () => {
@@ -33,7 +34,7 @@ const NavBar = () => {
     return (
         <div className='flex justify-between items-center w-full h-20 px-4 text-white bg-black fixed'>
             <div>
-                <h1 className='text-5xl font-signature ml-2'>Rohit</h1>
+                <h1 className='text-4xl ml-2 font-signature flex'> give me a call <FiPhone /> </h1>
             </div>
 
             <ul className='hidden md:flex'>

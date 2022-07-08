@@ -4,8 +4,8 @@ import html from "../assets/html.png";
 import css from "../assets/css.png";
 import javascript from "../assets/javascript.png";
 import reactImage from "../assets/react.png";
-import nextjs from "../assets/nextjs.png";
-import graphql from "../assets/graphql.png";
+import bootStrap from "../assets/bb5.png";
+import node from "../assets/node3.png";
 import github from "../assets/github.png";
 import tailwind from "../assets/tailwind.png";
 
@@ -39,19 +39,19 @@ const Experience = () => {
       id: 5,
       src: tailwind,
       title: "Tailwind",
-      style: "shadow-sky-400",
+      style: "shadow-sky-500",
     },
     {
       id: 6,
-      src: nextjs,
-      title: "Next JS",
-      style: "shadow-white",
+      src: bootStrap,
+      title: "BootStrap",
+      style: "shadow-purple-500",
     },
     {
       id: 7,
-      src: graphql,
-      title: "GraphQL",
-      style: "shadow-pink-400",
+      src: node,
+      title: "Node.js",
+      style: "shadow-green-500",
     },
     {
       id: 8,
