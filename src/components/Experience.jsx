@@ -1,13 +1,13 @@
 import React from "react";
-
 import html from "../assets/html.png";
 import css from "../assets/css.png";
 import javascript from "../assets/javascript.png";
 import reactImage from "../assets/react.png";
 import bootStrap from "../assets/bb5.png";
-import node from "../assets/node3.png";
+import node from "../assets/node-js.png";
 import github from "../assets/github.png";
 import tailwind from "../assets/tailwind.png";
+import mongoDb from "../assets/database.png";
 
 const Experience = () => {
   const techs = [
@@ -54,10 +54,16 @@ const Experience = () => {
       style: "shadow-green-500",
     },
     {
-      id: 8,
+        id: 8,
+        src: mongoDb,
+        title: "MongoDb",
+        style: "shadow-blue-500",
+    },
+    {
+      id: 9,
       src: github,
       title: "GitHub",
-      style: "shadow-gray-400",
+      style: "shadow-gray-300",
     },
   ];
 

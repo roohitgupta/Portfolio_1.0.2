@@ -34,7 +34,7 @@ const NavBar = () => {
     return (
         <div className='flex justify-between items-center w-full h-20 px-4 text-white bg-black fixed'>
             <div>
-                <h1 className='text-4xl ml-2 font-signature flex'> give me a call <FiPhone /> </h1>
+                <h1 className='text-4xl ml-2 font-signature flex'> <a href="tel:+917000193449" target="_blank" rel="noreferrer"> <FiPhone className="phone" /> </a>  </h1>
             </div>
 
             <ul className='hidden md:flex'>
