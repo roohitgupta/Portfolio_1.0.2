@@ -2,6 +2,13 @@ import React, { useState } from 'react';
 import { FaBars, FaTimes } from "react-icons/fa";
 import { FiPhone } from 'react-icons/fi';
 import { Link } from 'react-scroll'
+import {
+    AiFillStar,
+    AiOutlineHome,
+    AiOutlineFundProjectionScreen,
+    AiOutlineUser,
+    AiOutlineContacts
+  } from "react-icons/ai";
 
 const NavBar = () => {
 
@@ -10,22 +17,27 @@ const NavBar = () => {
     const links = [
         {
             id: 1,
+            icon: <AiOutlineHome className='mr-2' size={20} />,
             link: "home",
         },
         {
             id: 2,
+            icon: <AiOutlineUser className='mr-2' size={20} />,
             link: "about",
         },
         {
             id: 3,
+            icon: <AiOutlineFundProjectionScreen className='mr-2' size={22} />,
             link: "projects",
         },
         {
             id: 4,
+            icon: <AiFillStar className='mr-2' size={20} />,
             link: "experience",
         },
         {
             id: 5,
+            icon: <AiOutlineContacts className='mr-2' size={22} />,
             link: "contact",
         },
     ]
@@ -38,10 +50,10 @@ const NavBar = () => {
             </div>
 
             <ul className='hidden md:flex'>
-                {links.map(({ id, link }) => (
-                    <li key={id} className='px-4 cursor-pointer capitalize font-medium text-gray-500 hover:scale-110 hover:bg-white duration-200'>
-                        <Link to={link} smooth duration={500}>
-                            {link}
+                {links.map(({ id, link, icon }) => (
+                    <li key={id} className='px-4 cursor-pointer capitalize font-medium text-gray-400 hover:scale-110 hover:underline underline-offset-4 decoration-sky-500 duration-200 hover:text-sky-500'>
+                        <Link to={link} smooth duration={500} className="flex items-center ml-2">
+                            {icon}{link}
                         </Link>
                     </li>
                 ))}

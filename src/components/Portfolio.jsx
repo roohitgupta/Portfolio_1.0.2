@@ -1,37 +1,52 @@
 import React from "react";
-import arrayDestruct from "../assets/portfolio/arrayDestruct.jpg";
-import installNode from "../assets/portfolio/installNode.jpg";
-import navbar from "../assets/portfolio/navbar.jpg";
-import reactParallax from "../assets/portfolio/reactParallax.jpg";
-import reactSmooth from "../assets/portfolio/reactSmooth.jpg";
-import reactWeather from "../assets/portfolio/reactWeather.jpg";
+import yoox from "../assets/portfolio/yoox.png";
+import employee from "../assets/portfolio/employee.jpg";
+import onbikes from "../assets/portfolio/onbikes.png";
+import mednear from "../assets/portfolio/mednear.png";
+import kfc from "../assets/portfolio/kfc.PNG";
+import counter from "../assets/portfolio/counter2.gif";
+
 
 const Portfolio = () => {
   const portfolios = [
     {
       id: 1,
-      src: arrayDestruct,
+      src: yoox,
+      code: <a target="_blank"  href="https://github.com/roohitgupta/YOOX-E-ECOMMERCE">Code</a>,
+      demo: <a target="_blank" href="https://yoox-ecommerce.netlify.app">Demo</a>,
+
     },
     {
       id: 2,
-      src: reactParallax,
+      src: mednear,
+      code: <a target="_blank"  href="https://github.com/HrgChampion/Mednear-clone">Code</a>,
+      demo: <a target="_blank" href="https://mednear.netlify.app/">Demo</a>,
     },
     {
       id: 3,
-      src: navbar,
+      src: onbikes,
+      code: <a target="_blank"  href="https://github.com/Ritesh6997/ONN-BIke-Complete-Project">Code</a>,
+      demo: <a target="_blank" href="https://sharp-brahmagupta-a8b2e3.netlify.app/">Demo</a>,
     },
     {
       id: 4,
-      src: reactSmooth,
+      src: kfc,
+      code: <a target="_blank"  href="https://github.com/roohitgupta/KFC_Clone">Code</a>,
+      demo: <a target="_blank" href="https://frolicking-chimera-feaef0.netlify.app/">Demo</a>,
     },
     {
       id: 5,
-      src: installNode,
+      src: employee,
+      code: <a target="_blank"  href="https://github.com/roohitgupta/entity-listing-application">Code</a>,
+      demo: <a target="_blank" href="https://github.com/roohitgupta/entity-listing-application">Demo</a>,
     },
     {
       id: 6,
-      src: reactWeather,
+      src: counter,
+      code: <a target="_blank"  href="https://github.com/roohitgupta/counter-app-boilerplate">Code</a>,
+      demo: <a target="_blank" href="https://github.com/roohitgupta/counter-app-boilerplate">Demo</a>,
     },
+    
   ];
 
   return (
@@ -48,7 +63,7 @@ const Portfolio = () => {
         </div>
 
         <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0">
-          {portfolios.map(({ id, src }) => (
+          {portfolios.map(({ id, src, code, demo }) => (
             <div key={id} className="shadow-md shadow-gray-600 rounded-lg">
               <img
                 src={src}
@@ -57,10 +72,10 @@ const Portfolio = () => {
               />
               <div className="flex items-center justify-center">
                 <button className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105">
-                  Demo
+                  {demo}
                 </button>
                 <button className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105">
-                  Code
+                  {code} 
                 </button>
               </div>
             </div>

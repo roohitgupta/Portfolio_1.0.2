@@ -14,7 +14,7 @@ const About = () => {
         </div>
 
         <p className="text-xl text-gray-300 mt-20">
-        Hi , I am <span className="text-white decoration-sky-500 font-medium">Rohit Gupta</span> from Indore, Madhya Pradesh. A dedicated <span className="underline underline-offset-2 decoration-sky-500 font-medium">Full-Stack Web Developer</span> with a specialized skill set. Proficient in <span className="underline underline-offset-2 text-white-500 decoration-sky-500 font-medium">Data Structures and Algorithms</span>  to build robust web applications. <br /> Self-motivated and adaptable to both back-end and front-end whose mission in life is to build useful products for solving everyday problems.
+        Hi, I am <span className="text-white decoration-sky-500 font-medium">Rohit Gupta</span> from Indore, Madhya Pradesh. A dedicated <span className="underline underline-offset-2 decoration-sky-500 font-medium">Full-Stack Web Developer</span> with a specialized skill set. Proficient in <span className="underline underline-offset-2 text-white-500 decoration-sky-500 font-medium">Data Structures and Algorithms</span>  to build robust web applications. <br /> Self-motivated and adaptable to both back-end and front-end whose mission in life is to build useful products for solving everyday problems.
 
         </p>
 
@@ -22,9 +22,9 @@ const About = () => {
 
         <p className="text-xl text-gray-300">
         Joined the Military style Bootcamp to learn Software Development and Data Structures. Also learned many soft skills in the process from <span className="underline underline-offset-2 decoration-sky-500 font-medium">Masai School, Bengaluru, Karnataka.</span> October 2021 - July 2022. <br /> <br />
-          Graduate from the University of <span className="underline underline-offset-2 decoration-sky-500 font-normal">Devi Ahilya Vishwavidyalaya, Indore</span> from <span className="underline underline-offset-2 decoration-sky-500 font-normal">Acropolis Institute of Management Studies & Research</span>.
+          Graduate from the University of Devi Ahilya Vishwavidyalaya, Indore from <span className="underline underline-offset-2 decoration-sky-500 font-normal">Acropolis Institute of Management Studies & Research</span>.
         </p>
-        <br /> <hr />
+        <br /> 
       </div>
     </div>
   );
