@@ -15,7 +15,7 @@ const SocialLinks = () => {
                 </>
             ),
             href: "https://www.linkedin.com/in/roohit-gupta/",
-            style: "rounded-tr-md hover:bg-sky-700"
+            // style: "rounded-tr-md hover:bg-sky-700"
         },
         {
             id: 2,
@@ -25,7 +25,7 @@ const SocialLinks = () => {
                 </>
             ),
             href: "https://github.com/roohitgupta",
-            style: "hover:bg-zinc-800"
+            // style: "hover:bg-zinc-800"
         },
         {
             id: 3,
@@ -35,7 +35,7 @@ const SocialLinks = () => {
                 </>
             ),
             href: "mailto:roohitgupta2@gmail.com",
-            style: "hover:bg-red-600"
+            // style: "hover:bg-red-600"
         },
         {
             id: 4,
@@ -45,7 +45,7 @@ const SocialLinks = () => {
                 </>
             ),
             href: "/resume_rohitGupta.pdf",
-            style: "rounded-br-md hover:bg-purple-700",
+            // style: "rounded-br-md hover:bg-purple-700",
             download: true,
         },
     ];
@@ -55,8 +55,8 @@ const SocialLinks = () => {
         <div className='hidden lg:flex flex-col top-[35%] left-0 fixed'>
             <ul>
                 {
-                    links.map(({ id, child, href, style, download }) => (
-                        <li key={id} className={["flex justify-between items-center w-40 h-14 px-4 ml-[-100px] bg-gray-500 hover:ml-[-10px] hover:rounded-md duration-300"+" " + style]}>
+                    links.map(({ id, child, href, download }) => (
+                        <li key={id} className="flex justify-between items-center w-40 h-14 px-4 ml-[-100px] bg-gray-500 hover:ml-[-10px] hover:rounded-md duration-300">
                             <a href={href} 
                             className='flex justify-between items-center w-full text-white' 
                             download={download} 
