@@ -12,33 +12,33 @@ const Portfolio = () => {
     {
       id: 1,
       src: yoox,
-      code: <a target="_blank"  href="https://github.com/roohitgupta/YOOX-E-ECOMMERCE">Code</a>,
-      demo: <a target="_blank" href="https://yoox-ecommerce.netlify.app">Demo</a>,
+      code: <a target="_blank" rel="noreferrer" href="https://github.com/roohitgupta/YOOX-E-ECOMMERCE">Code</a>,
+      demo: <a target="_blank" rel="noreferrer" href="https://yoox-ecommerce.netlify.app">Demo</a>,
 
     },
     {
       id: 2,
       src: mednear,
-      code: <a target="_blank"  href="https://github.com/HrgChampion/Mednear-clone">Code</a>,
-      demo: <a target="_blank" href="https://mednear.netlify.app/">Demo</a>,
+      code: <a target="_blank" rel="noreferrer" href="https://github.com/HrgChampion/Mednear-clone">Code</a>,
+      demo: <a target="_blank" rel="noreferrer" href="https://mednear.netlify.app/">Demo</a>,
     },
     {
       id: 3,
       src: onbikes,
-      code: <a target="_blank"  href="https://github.com/Ritesh6997/ONN-BIke-Complete-Project">Code</a>,
-      demo: <a target="_blank" href="https://sharp-brahmagupta-a8b2e3.netlify.app/">Demo</a>,
+      code: <a target="_blank" rel="noreferrer" href="https://github.com/Ritesh6997/ONN-BIke-Complete-Project">Code</a>,
+      demo: <a target="_blank" rel="noreferrer" href="https://sharp-brahmagupta-a8b2e3.netlify.app/">Demo</a>,
     },
     {
       id: 4,
       src: kfc,
-      code: <a target="_blank"  href="https://github.com/roohitgupta/KFC_Clone">Code</a>,
-      demo: <a target="_blank" href="https://frolicking-chimera-feaef0.netlify.app/">Demo</a>,
+      code: <a target="_blank" rel="noreferrer" href="https://github.com/roohitgupta/KFC_Clone">Code</a>,
+      demo: <a target="_blank" rel="noreferrer" href="https://frolicking-chimera-feaef0.netlify.app/">Demo</a>,
     },
     {
       id: 5,
       src: employee,
-      code: <a target="_blank"  href="https://github.com/roohitgupta/entity-listing-application">Code</a>,
-      demo: <a target="_blank" href="https://github.com/roohitgupta/entity-listing-application">Demo</a>,
+      code: <a target="_blank" rel="noreferrer" href="https://github.com/roohitgupta/entity-listing-application">Code</a>,
+      demo: <a target="_blank" rel="noreferrer" href="https://github.com/roohitgupta/entity-listing-application">Demo</a>,
     },
     {
       id: 6,
