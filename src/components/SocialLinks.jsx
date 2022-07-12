@@ -15,7 +15,7 @@ const SocialLinks = () => {
                 </>
             ),
             href: "https://www.linkedin.com/in/roohit-gupta/",
-            style: "rounded-tr-md"
+            style: "rounded-tr-md hover:bg-sky-700"
         },
         {
             id: 2,
@@ -25,6 +25,7 @@ const SocialLinks = () => {
                 </>
             ),
             href: "https://github.com/roohitgupta",
+            style: "hover:bg-zinc-800"
         },
         {
             id: 3,
@@ -34,6 +35,7 @@ const SocialLinks = () => {
                 </>
             ),
             href: "mailto:roohitgupta2@gmail.com",
+            style: "hover:bg-red-600"
         },
         {
             id: 4,
@@ -42,8 +44,8 @@ const SocialLinks = () => {
                     Resume <BsFillPersonLinesFill size={30} />
                 </>
             ),
-            href: "/final_resume_.pdf",
-            style: "rounded-br-md",
+            href: "/resume_rohitGupta.pdf",
+            style: "rounded-br-md hover:bg-purple-700",
             download: true,
         },
     ];
@@ -54,7 +56,7 @@ const SocialLinks = () => {
             <ul>
                 {
                     links.map(({ id, child, href, style, download }) => (
-                        <li key={id} className={"flex justify-between items-center w-40 h-14 px-4 ml-[-100px] bg-gray-500 hover:ml-[-10px] hover:rounded-md duration-300"}>
+                        <li key={id} className={"flex justify-between items-center w-40 h-14 px-4 ml-[-100px] bg-gray-500 hover:ml-[-10px] hover:rounded-md duration-300" + " " + style}>
                             <a href={href} 
                             className='flex justify-between items-center w-full text-white' 
                             download={download} 

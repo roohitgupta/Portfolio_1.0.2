@@ -34,12 +34,12 @@ const NavBar = () => {
     return (
         <div className='flex justify-between items-center w-full h-20 px-4 text-white bg-black fixed'>
             <div>
-                <h1 className='text-4xl ml-2 font-signature flex'> <a href="tel:+917000193449" target="_blank" rel="noreferrer"> <FiPhone className="phone" /> </a>  </h1>
+                <h1 className='text-4xl ml-2 font-signature flex'> <a href="tel:+917000193449" target="_blank" rel="noreferrer"> <FiPhone className="phone" size={30}/> </a>  </h1>
             </div>
 
             <ul className='hidden md:flex'>
                 {links.map(({ id, link }) => (
-                    <li key={id} className='px-4 cursor-pointer capitalize font-medium text-gray-500 hover:scale-110 duration-200'>
+                    <li key={id} className='px-4 cursor-pointer capitalize font-medium text-gray-500 hover:scale-110 hover:bg-white duration-200'>
                         <Link to={link} smooth duration={500}>
                             {link}
                         </Link>
