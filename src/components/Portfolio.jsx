@@ -43,8 +43,8 @@ const Portfolio = () => {
     {
       id: 6,
       src: counter,
-      code: <a target="_blank"  href="https://github.com/roohitgupta/counter-app-boilerplate">Code</a>,
-      demo: <a target="_blank" href="https://github.com/roohitgupta/counter-app-boilerplate">Demo</a>,
+      code: <a target="_blank" rel="noreferrer" href="https://github.com/roohitgupta/counter-app-boilerplate">Code</a>,
+      demo: <a target="_blank" rel="noreferrer" href="https://github.com/roohitgupta/counter-app-boilerplate">Demo</a>,
     },
     
   ];
