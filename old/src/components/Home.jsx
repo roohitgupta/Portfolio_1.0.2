@@ -1,5 +1,5 @@
 import React from "react";
-import HeroImage from "../assets/Rohit_Gupta.jpeg";
+import HeroImage from "../assets/rohit.jpg";
 import { MdOutlineKeyboardArrowRight } from "react-icons/md";
 import { Link } from "react-scroll";
 import Typewriter from "typewriter-effect";
@@ -7,24 +7,25 @@ import Typewriter from "typewriter-effect";
 const Home = () => {
   return (
     <div name="home" className="h-screen w-full bg-gradient-to-b from-black via-black to-gray-800">
-      <div className="max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-4             md:flex-row">
-        <div className="flex flex-col justify-center h-full w-3/5">
-          <h2 className="text-4xl sm:text-5xl font-bold text-sky-500">
+      <div className="max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-4 md:flex-row">
+        <div className="flex flex-col justify-center h-1/2 w-3/4">
+          <h3 className="text-5xl sm:text-6xl font-bold text-sky-500 h-2/5">
             <Typewriter
               options={{
                 strings: [
                   "MERN Stack Developer",
                   "Full Stack Developer",
                   "React Developer",
-                  "Backend Developer"
+                  "Node Developer"
                 ],
-                autoStart: true,
+                autoStart: true, 
+                tartSpeed:90,
                 loop: true,
-                deleteSpeed: 50,
+                deleteSpeed: 60,
               }}
             />
-          </h2>
-          <p className="text-gray-500 py-4  max-w-md">
+          </h3>
+          <p className="text-gray-500 py-4 max-w-lg ">
             An empathetic & hardworking individual with a problem-solving mindset who likes building websites. I love to work on web application using technologies like
             React, Node JS, MongoDB with Css frameworks like Tailwind, Bootstrap etc..
           </p>
@@ -44,11 +45,11 @@ const Home = () => {
           </div>
         </div>
 
-        <div className="w-2/5">
+        <div className="w-2/5 ">
           <img
             src={HeroImage}
             alt="my profile"
-            className="rounded-2xl mx-auto w-1/2 md:w-2/3"
+            className="rounded-2xl mx-auto w-80% md:w-2/3"
           />
         </div>
       </div>
